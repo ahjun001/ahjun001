@@ -1,4 +1,4 @@
-# Technology lecture notes, examples, and projects
+# On technology: lecture notes, examples, and projects
 ## Hardware
 Basic requirements: thin & flat, non-glossy screen
 - Lenovo Think pad
