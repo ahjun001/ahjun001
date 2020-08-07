@@ -1,23 +1,18 @@
 = On technology: lecture notes, examples, and projects
-
-:ahjun001-medi-base: https://raw.githubusercontent.com/ahjun001/ahjun001/master/
-:repoducible:
-:source-highlighter: coderay
-:listing-caption: Listing
-:pdf-page-size: A4
-:docinfo: private-head
-:idprefix:
-:idseparator: -
-:sectanchors:
-:sectlinks:
-:sectnumlevels: 6
-:sectnums:
-:toc: macro
-:toclevels: 6
-:toc-title:
-
-toc::[]
-
+//:repoducible:
+//:source-highlighter: coderay
+//:listing-caption: Listing
+//:pdf-page-size: A4
+//:docinfo: private-head
+//:idprefix:
+//:idseparator: -
+//:sectanchors:
+//:sectlinks:
+:toc:   // gets a ToC after the title
+:toc-title: Contents
+:toclevels: 3
+:sectnums: // gets ToC sections to be numbered
+:sectnumlevels: 2
 
 == Hardware
 
@@ -39,6 +34,8 @@ Basic requirements: thin & flat, non-glossy screen
 == bash
 
 == python
+=== Training suggestions
+https://training.talkpython.fm/courses/explore_100days_in_python/100-days-of-code-in-python#course_outline
 
 == javascript
 
@@ -47,6 +44,9 @@ Basic requirements: thin & flat, non-glossy screen
 - vim
 
 == IDE, Integrated Development Environments
+- pycharm
+https://training.talkpython.fm/courses/explore_pycharm/mastering-pycharm-ide
+- VSCode
 
 == Selecting a lightweight markup language
 Mainly to rapidly key-in notes that include text, pics, weblinks,
@@ -57,7 +57,7 @@ and also description lists, admonitions (tips, notes, warnings, cautions, etc.) 
 
 A cool tip: Github render as html on account head page the https://github/account/account/README.md file. README.adoc will work as well.
 
-AsciiDoc is presented as superior by many, in the context of this page mainly for its Table Of Contents, toc. It is also presented as simplier to grasp. Here is the rationale: https://asciidoctor.org/docs/user-manual/#graduating-to-asciidoc
+AsciiDoc is presented as superior by many, in the context of this page mainly for its Table Of Contents, toc. It is also presented as simpler to grasp. Here is the rationale: https://asciidoctor.org/docs/user-manual/#graduating-to-asciidoc
 
 Markdown & GFM, Github Flavored Markdown: the de facto reference, mainly for Github and Jupyter notebooks.
 
@@ -68,6 +68,7 @@ Rendering on linux Mint:
 HackMD, mainly for collaborative work on github.  Can draw simple UML diagrams (workflows) and math formulas.
 
 == AsciiDoctor tutorial
+
 https://AsciiDoctor.org/docs/asciidoc-syntax-quick-reference/
 
 === Editing asciidoc
