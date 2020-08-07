@@ -1,11 +1,23 @@
 = On technology: lecture notes, examples, and projects
 
+:ahjun001-medi-base: https://raw.githubusercontent.com/ahjun001/ahjun001/master/
 :repoducible:
-:source-highlighter: Rouge
+:source-highlighter: coderay
 :listing-caption: Listing
 :pdf-page-size: A4
+:docinfo: private-head
+:idprefix:
+:idseparator: -
+:sectanchors:
+:sectlinks:
+:sectnumlevels: 6
+:sectnums:
+:toc: macro
+:toclevels: 6
+:toc-title:
 
-to view this file on Linux Mint: apt install -y retext && retext --preview README.md
+toc::[]
+
 
 == Hardware
 
@@ -41,11 +53,11 @@ Mainly to rapidly key-in notes that include text, pics, weblinks,
 
 but also tables, cross-references (sharing the same xml:id attribute), footnotes, embedded videos
 
-and also description lists, admonitions (tips, notes, warnings, etc.) and table of content.
+and also description lists, admonitions (tips, notes, warnings, cautions, etc.) and table of contents.
 
 A cool tip: Github render as html on account head page the https://github/account/account/README.md file. README.adoc will work as well.
 
-AsciiDoc is presented as superior by many, in the context of this page mainly for its Table Of Contents, toc. It is also presented as simpler to grasp. Here is the rationale: https://asciidoctor.org/docs/user-manual/#graduating-to-asciidoc
+AsciiDoc is presented as superior by many, in the context of this page mainly for its Table Of Contents, toc. It is also presented as simplier to grasp. Here is the rationale: https://asciidoctor.org/docs/user-manual/#graduating-to-asciidoc
 
 Markdown & GFM, Github Flavored Markdown: the de facto reference, mainly for Github and Jupyter notebooks.
 
