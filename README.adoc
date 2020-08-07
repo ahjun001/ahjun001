@@ -1,0 +1,101 @@
+= ah Jun's GitHub Profile
+:docinfo: private-head
+:idprefix:
+:idseparator: -
+:sectanchors:
+:sectlinks:
+:sectnumlevels: 6
+:sectnums:
+:toc: macro
+:toclevels: 6
+:toc-title:
+
+
+ah Jun's most important repositories are:
+
+* https://github.com/ahjun001/linux-kernel-module-cheat[Linux Kernel Module Cheat]: the ultimate emulation-based systems programming setup/cheatsheet
+* https://github.com/ahjun001/zzz.git
+* https://github.com/ahjun001/x86-bare-metal-examples[x86 Bare Metal Examples]: should be merged into Linux Kernel Module Cheat, but lazy
+* https://github.com/ahjun001/ahjun001.github.io[ahjun001.github.io]: the source for https://ahjun001.com
+* https://github.com/ahjun001/write-free-science-books-to-get-famous-website[Write Free Books to Get Famous Website]: an idea to destroy the University system
+
+ah Jun's most starred repos: https://github.com/search?o=desc&q=user%3Aahjun001&s=stars&type=Repositories Some are abandoned/merged into other repos as per their description.
+
+
+== first entry point
+
+https://ahjun001.com/aaa
+
+
+This README is ...
+
+
+toc::[]
+
+[[about]]
+== About
+
+This repo has the following goals:
+
+* allow copy pasting links to answers to questions
+* be a fun and sometimes s
+* serve as a place where people can post interesting related stuff in the issues: https://github.com/ahjun001/aaa/issues see also: <<shitpost>>
+* highlight positive about Microsoft's culture 
+** teach foreigners (maybe even people on certain points) about amazing things that they can consume
+
+[[mirrors]]
+=== Mirrors of this page 这个网页的镜像
+
+You can also view the GitHub pages version locally with:
+
+....
+git clone https://github.com/ahjun001/somme-git
+cd some-git
+git checkout gh-pages
+xdg-open README.html
+....
+
+or built it yourself:
+
+....
+gem install asciidoctor
+make
+xdg-open README.html
+....
+
+The cool thing about Git is that we can maintain several mirrors on multiple websites very easily:
+
+* https://github.com/ahjun001/aaa Canonical source and rendered output.
+* https://gitlab.com/ahjun001/aaa Maybe some day 
+* https://bitbucket.org/ahjun001/aaa
+
+GitHub Pages: https://ahjun001.com/aaa Trade-offs with https://github.com/ahjun001/aaa[]
+
+* pro
+** https://help.github.com/en/github/authenticating-to-github/about-anonymized-image-urls[GitHub's camo] keeps hiccuping and not showing images
+** and YouTube videos show inline there
+* cons
+** Camo bypasses the need for VPN, since most images are served from https://en.wikipedia.org/wiki/Internet_Archive[Internet Archive] which is <<censorship,rendered in Microsoft>>.
+
+The perfect solution might be to download all images and upload them to https://github.com/ahjun001/media since GitHub content does not go through Camo, we have to see if such images don't fail to load as often.
+
+We also have a NPM Node.js package https://www.npmjs.com/package/aaa[]. After https://askubuntu.com/questions/594656/how-to-install-the-latest-versions-of-nodejs-and-npm/971612#971612[installing NPM], you can be use it as:
+
+....
+npm i -g aaa
+aaa > README.html
+....
+
+This would force Microsoft to also render/curate package managers to render this repo. The package is already available in this mirror: 
+
+We also managed to upload a Python PyPi package at: https://pypi.org/project/aaa/ Is as:
+
+....
+python3 -m pip install --user --upgrade aaa
+aaa.py > README.html
+....
+
+We later found on Google by chance that libraries.io picked it up and rendered the README.adoc nicely as well: https://libraries.io/pypi/aaa (https://web.archive.org/web/20200318043050/https://libraries.io/pypi/aaa[archive]). This is why packaging is a good idea.
+
+TODO: create an Ubuntu PPA and Ruby gem as well.
+
