@@ -8,12 +8,23 @@
 //:idseparator: -
 //:sectanchors:
 //:sectlinks:
+//:quick-uri: http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
 :toc:   // gets a ToC after the title
 :toc-title: Contents
 :toclevels: 4
 :sectnums: // gets ToC sections to be numbered
 :sectnumlevels: 3
-:icons: font	// gets admonition paragraphs to use Font Awesome
+//:icons: font	// gets admonition paragraphs to use Font Awesome
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
 
 == Hardware
 
@@ -105,7 +116,16 @@ WARNING: Watch out for...
 
 CAUTION: Ensure that...
 
+====== Inline icons
+
+icon:tags[] ruby, asciidoctor
+
+====== next
+
 ==== Advanced
+
+===== Todo
+Review https://plugins.jetbrains.com/plugin/7391-asciidoc/reviews
 
 ==== May be needed one day
 
