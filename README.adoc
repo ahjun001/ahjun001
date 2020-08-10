@@ -13,6 +13,7 @@
 :toclevels: 4
 :sectnums: // gets ToC sections to be numbered
 :sectnumlevels: 3
+:icons: font	// gets admonition paragraphs to use Font Awesome
 
 == Hardware
 
@@ -92,11 +93,11 @@ A paragraph offset by at least one space becomes literal.
  like the ones between a     and b,
  are preserved.
 
-==== Admonition
+===== Admonition
 
 NOTE: An admonition paragraph draws the reader's attention to auxiliary information.
 
-TIP: Pro tip...
+TIP: :$ sudo apt install fonts-font-awesome   # to render icons
 
 IMPORTANT: Don't forget...
 
