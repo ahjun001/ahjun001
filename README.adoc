@@ -10,9 +10,9 @@
 //:sectlinks:
 :toc:   // gets a ToC after the title
 :toc-title: Contents
-:toclevels: 3
+:toclevels: 4
 :sectnums: // gets ToC sections to be numbered
-:sectnumlevels: 2
+:sectnumlevels: 3
 
 == Hardware
 
@@ -48,7 +48,9 @@ https://training.talkpython.fm/courses/explore_100days_in_python/100-days-of-cod
 https://training.talkpython.fm/courses/explore_pycharm/mastering-pycharm-ide
 - VSCode
 
-== Selecting a lightweight markup language
+== Text editing with  a lightweight markup language
+
+=== Selecting a lightweight markup language
 Mainly to rapidly key-in notes that include text, pics, weblinks,
 
 but also tables, cross-references (sharing the same xml:id attribute), footnotes, embedded videos
@@ -67,12 +69,40 @@ Rendering on linux Mint:
 
 HackMD, mainly for collaborative work on github.  Can draw simple UML diagrams (workflows) and math formulas.
 
-== AsciiDoctor tutorial
+=== AsciiDoctor tutorial
 
 https://AsciiDoctor.org/docs/asciidoc-syntax-quick-reference/
 
 === Editing asciidoc
+
 ==== Cheat sheet
+
+===== Paragraphs
+
+====== Normal
+
+Newlines within a Normal paragraph are not displayed.  Neither are spaces: there are 4 spaces between a    and b.
+
+====== Literal
+
+A paragraph offset by at least one space becomes literal.
+
+ The text is shown in a fixed-width font.
+ Spaces and newlines,
+ like the ones between a     and b,
+ are preserved.
+
+==== Admonition
+
+NOTE: An admonition paragraph draws the reader's attention to auxiliary information.
+
+TIP: Pro tip...
+
+IMPORTANT: Don't forget...
+
+WARNING: Watch out for...
+
+CAUTION: Ensure that...
 
 ==== Advanced
 
