@@ -1,4 +1,15 @@
 = On technology: lecture notes, examples, and projects
+// writing comments after settings is not caught by the linter, but it does not work either ... // don't do it
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
 //:repoducible:
 //:source-highlighter: coderay
 //:listing-caption: Listing
@@ -15,33 +26,55 @@
 :sectnums: // gets ToC sections to be numbered
 :sectnumlevels: 3
 //:icons: font	// gets admonition paragraphs to use Font Awesome
-ifndef::env-github[:icons: font]
-ifdef::env-github[]
-:status:
-:outfilesuffix: .adoc
-:caution-caption: :fire:
-:important-caption: :exclamation:
-:note-caption: :paperclip:
-:tip-caption: :bulb:
-:warning-caption: :warning:
-endif::[]
+
+== Using Github
+
+ Sort (seiri 整理): check if posted info & content are useful, remove when it's not
+ Set in order (seiton 整頓): arrange for easy readability & use
+ Shine (seiso 清掃): review periodically for validity (with software updates, the possibility of using system & machine may vary) and to refresh in reader's memory
+ Standardize (seiketsu 清潔): standardize look, nomenclature to be more intuitive
+ Sustain/self-discipline (shitsuke しつけ): seek & maintain continuous improvement, delivery, deployment
+
+=== Tools
+
+GitHub desktop: to manage a local version
 
 == Hardware
 
-Basic requirements: thin & flat, non-glossy screen
+Github is the current repository for several machines:
 
-- Lenovo Think pad
+- A desktop running Linux Mint 20 Ulyuana / Cinnamon
+- A Microsoft Surface Book version 1 with double boot: Linux Mint / Cinnamon & Windows 10
+- 2 64gb bootable disks, booting Linux Mint / Cinnamon and hopefully one day Windows 10 as well
+
+A Windows 10 VMWare client in Linux Mints allows handling of a few situations that Linux does not, such as:
+
+- Downloading Huawei phone pics & vids
+- Connecting to icbc site in China, which can only be browsed with IE
+- Running Wenlin with sounds
+- Getting TV mp4 from captvty
+
+But cannot
+- get the mike sound from RosettaStone, so would need a double boot just for this
+- Connect to bluetooth devices.  Watching a movie from Shunlei (BaiduYun can be seen on Linux) with external speakers
+would require usb cable.
+
+=== Next laptop basic requirements:
+- thin & flat: to work as a e-book
+- non-glossy screen: don't see the point of glossy, just annoying
+- non HiDPI, don't see the point, lot's of apps can't handle it either
+- no more MSF computers: on Windows, drivers were always being updated, as if they would never work
+- Lenovo Think pad: probably the best deal in China
 - Dell
 - HP
-- why no more MSF
-- bootable usb keys
 
 == Systems
-- Debian, ubuntu, linux Mint
-- Fedora, Centos
-- Windows 10, windows 7
-- gparted
-- clonezilla
+- Linux Mint is most user friendly
+- Fedora, Centos: one day
+- gparted: has a superb selection of software, all running in RAM in a ZFS partition
+- clonezilla: to make complete machine backups
+- Windows 10, windows 7: one day might be needed
+
 
 == bash
 
@@ -67,7 +100,7 @@ Mainly to rapidly key-in notes that include text, pics, weblinks,
 
 but also tables, cross-references (sharing the same xml:id attribute), footnotes, embedded videos
 
-and also description lists, admonitions (tips, notes, warnings, cautions, etc.) and table of contents.
+and also description lists, admonitions (note, tip, important, warning, caution) and table of contents.
 
 A cool tip: Github render as html on account head page the https://github/account/account/README.md file. README.adoc will work as well.
 
@@ -82,6 +115,10 @@ Rendering on linux Mint:
 HackMD, mainly for collaborative work on github.  Can draw simple UML diagrams (workflows) and math formulas.
 
 === AsciiDoctor tutorial
+
+some examples:
+ https://github.com/asciidoctor/asciidoctor/blob/master/README.adoc
+ https://raw.githubusercontent.com/asciidoctor/asciidoctor/master/README.adoc
 
 https://AsciiDoctor.org/docs/asciidoc-syntax-quick-reference/
 
@@ -106,15 +143,15 @@ A paragraph offset by at least one space becomes literal.
 
 ===== Admonition
 
-NOTE: An admonition paragraph draws the reader's attention to auxiliary information.
+NOTE:  NOTE: An admonition paragraph draws the reader's attention to auxiliary information.
 
-TIP: :$ sudo apt install fonts-font-awesome   # to render icons
+TIP:  TIP: $ sudo apt install fonts-font-awesome   # to render icons
 
-IMPORTANT: Don't forget...
+IMPORTANT:  IMPORTANT: Don't forget...
 
-WARNING: Watch out for...
+WARNING:  WARNING: Watch out for...
 
-CAUTION: Ensure that...
+CAUTION:  CAUTION: Ensure that...
 
 ====== Inline icons
 
