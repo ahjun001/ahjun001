@@ -147,11 +147,11 @@ NOTE:  NOTE: An admonition paragraph draws the reader's attention to auxiliary i
 
 TIP:  TIP: $ sudo apt install fonts-font-awesome   # to render icons
 
-IMPORTANT:  IMPORTANT: Don't forget...
-
 WARNING:  WARNING: Watch out for...
 
 CAUTION:  CAUTION: Ensure that...
+
+IMPORTANT:  IMPORTANT: Don't forget...
 
 ====== Inline icons
 
@@ -177,5 +177,30 @@ Direct conversion: https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
 
 Interesting, also because it unveils PDF'specificities: https://github.com/asciidoctor/asciidoctor-pdf/blob/master/docs/theming-guide.adoc 
 
+== Major techs
 
+=== Linux
 
+=== VIM
+
+=== Architecture / Gang of 4
+
+=== Dockers
+
+=== Git
+
+=== Python
+
+=== JavaScript / TypeScript / 
+
+=== Postgresql
+
+== Other techs 
+
+=== Inkscape
+
+=== VSCode
+
+=== asciiDoctor
+
+== Testing techs
