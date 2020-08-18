@@ -183,6 +183,13 @@ Interesting, also because it unveils PDF'specificities: https://github.com/ascii
 
 === VIM
 
+ :scriptnames  " to see what files & plugins are loaded at startup
+
+ :new
+ :put=execute('scriptnames')  " will write in the new file
+
+ VSCode will check in Settings (Ctrl+comma)  Vim> Vimrc:Path for vimrc file
+
 === Architecture / Gang of 4
 
 === Dockers
@@ -218,9 +225,8 @@ The Turn On Settings Sync entry is in the Manage gear menu at the bottom of the 
 
 ===== Default clone directory
 
-User settings 'CTRL + ,' / enter the path to your desired directory with slashes:
-
-"git.defaultCloneDirectory": "E:/yourPath/toYour/gitFolder/" 
+ User settings 'CTRL + comma'  /  enter the path to your desired directory with slashes:
+ "git.defaultCloneDirectory": "~/Documents/GitHub/"
 
 === asciiDoctor
 
