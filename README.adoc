@@ -231,3 +231,20 @@ The Turn On Settings Sync entry is in the Manage gear menu at the bottom of the 
 === asciiDoctor
 
 == Testing techs
+
+
+== Intesting programmers
+
+Ciro S.: posix-ubuntu, python, bonne appréciation de l'environment du software (free-lance system engineers will find it difficult against big corps), de la Chine.
+
+Russell Keith-Magee: for its views on open-source. https://realpython.com/podcasts/rpp/22/
+
+Armin Ronacher: created Flask as an April's fool joke. https://realpython.com/podcasts/rpp/18/
+
+Brett Cannon: Python core developer https://pythonbytes.fm/episodes/show/191/live-from-the-manning-python-conference
+
+Conor Hoekstra: https://talkpython.fm/episodes/show/275/beautiful-pythonic-refactorings
+
+William Stein: https://talkpython.fm/episodes/show/273/cocalc-a-fully-colloborative-notebook-development-environment
+
+Ravin Kumar: https://talkpython.fm/episodes/show/270/python-in-supply-chains-oil-rigs-rockets-and-lettuce
