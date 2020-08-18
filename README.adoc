@@ -22,9 +22,9 @@ endif::[]
 //:quick-uri: http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
 :toc:   // gets a ToC after the title
 :toc-title: Contents
-:toclevels: 4
+:toclevels: 3
 :sectnums: // gets ToC sections to be numbered
-:sectnumlevels: 3
+:sectnumlevels: 6
 //:icons: font	// gets admonition paragraphs to use Font Awesome
 
 == Using Github
@@ -200,6 +200,27 @@ Interesting, also because it unveils PDF'specificities: https://github.com/ascii
 === Inkscape
 
 === VSCode
+
+==== VSCode install
+
+===== VSCode Settings Sync
+
+Settings Sync lets you share your Visual Studio Code configurations such as settings, keybindings, and installed extensions across your machines so you are always working with your favorite setup.
+
+The Turn On Settings Sync entry is in the Manage gear menu at the bottom of the Activity Bar (vertical left bar).  This will synchronize:
+
+- Settings
+- Keyboard shortcuts for each platform
+- User snippets
+- Extensions
+- UI state
+
+
+===== Default clone directory
+
+User settings 'CTRL + ,' / enter the path to your desired directory with slashes:
+
+"git.defaultCloneDirectory": "E:/yourPath/toYour/gitFolder/" 
 
 === asciiDoctor
 
