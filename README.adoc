@@ -29,11 +29,18 @@ endif::[]
 
 == Using Github
 
+=== Maintain 5S
  Sort (seiri 整理): check if posted info & content are useful, remove when it's not
  Set in order (seiton 整頓): arrange for easy readability & use
  Shine (seiso 清掃): review periodically for validity (with software updates, the possibility of using system & machine may vary) and to refresh in reader's memory
  Standardize (seiketsu 清潔): standardize look, nomenclature to be more intuitive
  Sustain/self-discipline (shitsuke しつけ): seek & maintain continuous improvement, delivery, deployment
+
+=== Have a local copy of GitHub repositories under the same directory:
+
+In settings.json (ctrl+comma):
+
+ "git.defaultCloneDirectory": "~/Documents/GitHub/",
 
 === Tools
 
@@ -181,6 +188,10 @@ Interesting, also because it unveils PDF'specificities: https://github.com/ascii
 
 === Linux
 
+==== Linux Mint 20 on MS Surface book
+
+After install new kernel, check updates on https://github.com/linux-surface/linux-surface/issues/96 
+
 === VIM
 
  :scriptnames  " to see what files & plugins are loaded at startup
@@ -197,6 +208,13 @@ Interesting, also because it unveils PDF'specificities: https://github.com/ascii
 === Git
 
 === Python
+
+==== Podcasts which are worth a listen
+
+ https://pythonbytes.fm/episodes/all
+ https://talkpython.fm/episodes/all
+ https://realpython.com/podcasts/rpp/
+
 
 === JavaScript / TypeScript / 
 
@@ -233,7 +251,7 @@ The Turn On Settings Sync entry is in the Manage gear menu at the bottom of the 
 == Testing techs
 
 
-== Intesting programmers
+== Interesting programmers
 
 Ciro S.: posix-ubuntu, python, bonne appréciation de l'environment du software (free-lance system engineers will find it difficult against big corps), de la Chine.
 
