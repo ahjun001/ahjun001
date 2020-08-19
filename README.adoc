@@ -29,6 +29,8 @@ endif::[]
 
 == Using Github
 
+For each technology, maintain a cheatsheet, personal or outsourced, that points what responses to typical situations should be, backed with sources, illustrated with examples.
+
 === Maintain 5S
  Sort (seiri 整理): check if posted info & content are useful, remove when it's not
  Set in order (seiton 整頓): arrange for easy readability & use
