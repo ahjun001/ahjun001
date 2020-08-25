@@ -250,6 +250,31 @@ The Turn On Settings Sync entry is in the Manage gear menu at the bottom of the 
 
 === asciiDoctor
 
+
+=== Astrill
+
+==== Site filter
+
+ smtp.263.net
+ imap.263.net
+ https://partner.outlook.cn/
+ https://portal.partner.microsoftonline.cn/
+ https://login.partner.microsoftonline.cn/
+ https://www.system-in-motion.com/
+ https://web.wechat.com/
+ https://www.wechat.com/
+ https://www.baidu.com/
+ https://company.zhaopin.com/
+ http://mirrors.cn99.com/
+ 59.111.0.251
+ http://mirrors.aliyun.com/ubuntu/
+ https://mirrors.bfsu.edu.cn/
+ 39.155.141.16
+ http://mirrors.ustc.edu.cn/
+ http://archive.canonical.com/
+ http://security.ubuntu.com/
+ https://dl.winehq.org/wine-builds/
+ 
 == Testing techs
 
 
