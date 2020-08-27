@@ -272,6 +272,13 @@ The Turn On Settings Sync entry is in the Manage gear menu at the bottom of the 
  http://security.ubuntu.com/
  https://dl.winehq.org/wine-builds/
  
+
+=== Roadmaps
+
+ https://andreasbm.github.io/web-skills/?compact
+ https://roadmap.sh/
+
+
 == Testing techs
 
 
