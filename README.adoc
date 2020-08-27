@@ -29,7 +29,7 @@ endif::[]
 
 == Using Github
 
-For each technology, maintain a cheatsheet, personal or outsourced, that points what responses to typical situations should be, backed with sources, illustrated with examples.
+For each technology, maintain a cheatsheet, personal or outsourced, that points out to what responses to typical situations should be, backed with sources, illustrated with examples.
 
 === Maintain 5S
  Sort (seiri 整理): check if posted info & content are useful, remove when it's not
@@ -196,18 +196,15 @@ After install new kernel, check updates on https://github.com/linux-surface/linu
 
 === VIM
 
- :scriptnames  " to see what files & plugins are loaded at startup
-
- :new
- :put=execute('scriptnames')  " will write in the new file
-
- VSCode will check in Settings (Ctrl+comma)  Vim> Vimrc:Path for vimrc file
+https://github.com/ahjun001/cheat-sheet_VIM
 
 === Architecture / Gang of 4
 
 === Dockers
 
 === Git
+
+https://kamranahmed.info/blog/2015/07/20/random-git-tips-and-tricks/
 
 === Python
 
@@ -280,6 +277,8 @@ The Turn On Settings Sync entry is in the Manage gear menu at the bottom of the 
 
 == Interesting programmers
 
+Most active Github users: https://gist.github.com/paulmillr/2657075
+
 Ciro S.: posix-ubuntu, python, bonne appréciation de l'environment du software (free-lance system engineers will find it difficult against big corps), de la Chine.
 
 Russell Keith-Magee: for its views on open-source. https://realpython.com/podcasts/rpp/22/
@@ -293,3 +292,21 @@ Conor Hoekstra: https://talkpython.fm/episodes/show/275/beautiful-pythonic-refac
 William Stein: https://talkpython.fm/episodes/show/273/cocalc-a-fully-colloborative-notebook-development-environment
 
 Ravin Kumar: https://talkpython.fm/episodes/show/270/python-in-supply-chains-oil-rigs-rockets-and-lettuce
+
+
+Karan Ahmed: for his roadmaps (frontend, backend, devops)
+
+ https://github.com/kamranahmedse
+ http://youtube.com/theroadmap
+ Design Patterns: https://roadmap.sh/guides/design-patterns-for-humans
+ Interesting suggestions: https://kamranahmed.info/
+ Monitoring git updates: https://github.com/kamranahmedse/git-standup
+
+Andrei Cioara: for his suggestions on organizing GitHub, Gitlab, and BitBucket repos, https://github.com/aicioara
+
+HFT Guy in London, on how to organize GitHub repos: https://thehftguy.com/2016/10/24/heres-how-to-make-a-good-github-project-for-your-resume/
+
+Sindre Sorhus, for 1k+ repositories on Github: https://github.com/sindresorhus?tab=repositories
+
+== Interesting programs
+
