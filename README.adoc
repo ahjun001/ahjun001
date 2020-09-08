@@ -190,6 +190,10 @@ Interesting, also because it unveils PDF'specificities: https://github.com/ascii
 
 === Linux
 
+=== Forgotten commands
+
+ sudo update-alternatives --install /usr/bin/editor editor /usr/local/bin/vim 100
+
 ==== Linux Mint 20 on MS Surface book
 
 After install new kernel, check updates on https://github.com/linux-surface/linux-surface/issues/96 
@@ -205,6 +209,13 @@ https://github.com/ahjun001/cheat-sheet_VIM
 === Git
 
 https://kamranahmed.info/blog/2015/07/20/random-git-tips-and-tricks/
+
+==== Updating a fork
+
+https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/github-collaboration/update-github-repositories-with-changes-by-others/#:~:text=You%20can%20update%20your%20fork,be%20updated%20in%20your%20fork.
+
+https://levelup.gitconnected.com/how-to-sync-forked-repositories-using-git-or-github-2933e497fa16
+
 
 === Python
 
