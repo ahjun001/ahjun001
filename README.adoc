@@ -29,7 +29,63 @@ endif::[]
 
 == Using Github
 
-For each technology, maintain a cheatsheet, personal or outsourced, that points out to what responses to typical situations should be, backed with sources, illustrated with examples.
+This account is meant to keep technology assets, ultimately as project deliverables in their most accomplished form, and getting there as notes, install scripts, learning materials – tutorials, cheat sheets, archetypal situations and solutions – snippets, and pedagogical projects.
+
+To master a technology is first to apprehend,  then learn, and comprehend.
+
+=== Apprehend roughly follows understanding basic CRUD
+
+==== Create: know how to install the technology so as to be able to use it
+
+==== Read: understand what has been installed, what is available, what needs to be completed
+
+==== Update: know how to tune whatever needs to be for efficacy and efficiency
+
+==== Delete: save assets, uninstall, and clean
+
+=== Learn:
+Learning a new technology is mainly achieved through tutorials and realizing pedagogical projects.
+
+==== Tutorials
+These could be based either on books, websites, or MOOCs. 
+Experience shows that best assets worth keeping are in the form of Anki flashcards – those are on Anki site.
+Essential information worth keeping from tutorials, including cheat sheets, should be transcribed into Anki flashcards. All other tutorial scripts, videos, articles, and lecture notes are not worth storing.
+Some Anki flashcard have turned into complex procedures that show hard, and probably unnecessary to remember. These should be transferred as script in these repositories in a way that they could be readily accessible.
+
+==== Pedagogical projects
+Pedagogical projects are worth storing if the gist of the overall project can be seen to accelerate the realization of future similar endeavors.
+
+=== Comprehend:
+Acquiring these technology aims at gaining efficacy and efficiency. Which materialize into projects, projects assets being scripts, code, and deliverable.
+
+But also into summaries and documentations of accomplishments, for reasons as follows:
+
+==== Personal Reflection and Growth:
+Writing a summary will force to consolidate thoughts, gain clarity, and extract valuable insights from own experiences.
+This process promotes personal growth and self-awareness, crystallize learning from successes and failures.
+
+==== Memory and Recollection:
+Human memory is fallible, and over time, details of past endeavors may fade. 
+Writing down accomplishments and lessons learned creates a record that helps remember important details and retain valuable knowledge. 
+This written account can serve as a reference in the future when specific information or experiences need to be recalled.
+
+==== Accountability and Evaluation:
+Summarizing accomplishments and challenges faced helps to evaluate progress and performance.
+Leading to objectively assess strengths and weaknesses, identify areas for improvement, and set future goals.
+Allowing to refer back to past work and measure growth over time.
+
+==== Communication and Collaboration:
+While it may appear that these writings go unnoticed, there may be instances where sharing these summaries becomes valuable.
+For example, when collaborating with others on similar projects, sharing insights and lessons learned can help them avoid similar pitfalls or build upon collective successes.
+Additionally, when one switch roles or organizations, having a written record of accomplishments and experiences can be useful in showcasing your skills and expertise.
+
+==== Organizational Learning:
+In a professional setting, documenting accomplishments and lessons learned contributes to the broader knowledge base of functions, organizations, and territories.
+When others can access and learn from your experiences, it helps prevent reinventing the wheel and promotes continuous improvement within the organization.
+It also ensures that valuable knowledge is not lost if you leave the organization or change roles.
+
+==== Future Planning and Decision-Making:
+Summarizing experiences provides a foundation for future planning and decision-making.
 
 === Maintain 5S
  Sort (seiri 整理): check if posted info & content are useful, remove when it's not
