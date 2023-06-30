@@ -124,20 +124,28 @@ But cannot
 - Connect to bluetooth devices.  Watching a movie from Shunlei (BaiduYun can be seen on Linux) with external speakers
 would require usb cable.
 
-=== Next laptop basic requirements:
+=== Laptop basic requirements:
+- AMD series 5: good so far, no need for expensive series 7, 9
 - thin & flat: to work as a e-book
 - non-glossy screen: don't see the point of glossy, just annoying
 - non HiDPI, don't see the point, lot's of apps can't handle it either
 - no more MSF computers: on Windows, drivers were always being updated, as if they would never work
-- Lenovo Think pad: probably the best deal in China
-- Dell
-- HP
+- Lenovo Think pad or ThinkBook: probably the best deal in China
+- Acer, Asus, 
+- Dell, HP
+
+=== External drive
+- San disks, usb 3.2 Gen.1 have worked well so far
+
+=== Router
+- Linksys linksys wrt1900ACS v2
+- Asus RT-AX88U
 
 == Systems
 - Linux Mint is most user friendly
 - Fedora, Centos: one day
 - gparted: has a superb selection of software, all running in RAM in a ZFS partition
-- clonezilla: to make complete machine backups
+- rescuezilla: to make complete machine backups
 - Windows 10, windows 7: one day might be needed
 
 
