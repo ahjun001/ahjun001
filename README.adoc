@@ -296,6 +296,13 @@ https://levelup.gitconnected.com/how-to-sync-forked-repositories-using-git-or-gi
 
 == Other techs 
 
+=== Data banks
+
+* videos: 
+https://pixabay.com/
+* audio: 
+https://freesound.org/
+
 === Inkscape
 
 === VSCode
